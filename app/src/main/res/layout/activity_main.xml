@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tween.MainActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_gravity="center"
+        android:src="@mipmap/phone"
+        android:layout_marginTop="500px"
+        android:layout_width="500px"
+        android:layout_height="500px"/>
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:gravity="bottom"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/go1"
+        android:text="缩放"
+        android:onClick="go1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/go2"
+        android:text="透明"
+        android:onClick="go2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+
+        android:id="@+id/go3"
+        android:text="位移"
+        android:onClick="go3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/go4"
+        android:text="旋转"
+        android:onClick="go4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/go5"
+        android:text="动画集"
+        android:onClick="go5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+
+
+
+</LinearLayout>
